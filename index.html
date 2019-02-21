@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sort Gooods List</title>
+	<style>
+		button {
+			cursor: pointer;
+		}
+  
+		.goods__item {
+			text-align: center;
+			width: 200px;
+			height: 100px;
+			border: 1px solid #333;
+			margin: 10px;
+		}
+  
+		.goods-list {
+			list-style-type: none;
+		}
+	</style>
+</head>
+<body>
+
+	<button id="addItem">Add Item</button>
+	<button id="deleteItem">Delete Item</button>
+
+	<hr>
+
+	<button id="sort">Sort <span id="sortDirection">&#8593;</span></button>
+
+	<hr>
+	<h3>Goods List</h3>
+
+	<ul class="goods-list" id="goodsList"></ul>
+ 
+	<script src="main.js"></script>
+
+</body>
+</html>
